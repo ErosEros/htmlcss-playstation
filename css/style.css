@@ -5,6 +5,11 @@
     padding: 0px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+
 /* my rules*/
 .eros-bg-black {
     background-color: black;
@@ -15,5 +20,10 @@
 }
 
 .eros-section-1 {
-    background-image: url();
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }   
+
+
