@@ -19,20 +19,28 @@ body {
     height: 20px;
 }
 
-.eros-section-1 {
+.eros-bg-section-1 {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }   
+
+#returnal {
+    margin-top: 12rem;
+}
 
 .eros-bg-section-4 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .eros-bg-light-dark {
     background-color: #1f1f1f;
+}
+
+.eros-main-margin {
+    margin-top: 6.5rem;
 }
