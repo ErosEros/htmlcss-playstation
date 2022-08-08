@@ -56,3 +56,18 @@ body {
 .eros-bg-footer {
     background-color: #00439c;
 }
+
+/* hover */
+
+.section-3-card-img:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #0d6efd;
+    filter: opacity(0.5);
+  
+}
+
+.section-2-card-img:hover {
+    border: 2px solid blue;
+    transform: scale(0.95);
+    padding: 1px;
+}
