@@ -66,8 +66,31 @@ body {
   
 }
 
-.section-2-card-img:hover {
-    border: 2px solid blue;
-    transform: scale(0.95);
-    padding: 1px;
+/* .section-2-card-img {
+    transition: 1s;
+} */
+
+@media screen and (max-width:1200px) {
+    .section-2-card-img:hover {
+        border: 2px solid blue;
+        transform: scale(0.95);
+        padding: 2px;
+        margin: -2px;
+    }
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .section-2-card-img:hover {
+        border: 2px solid blue;
+        transform: scale(0.95);
+        padding: 2px;
+        margin: -22px 0px;
+        cursor: pointer;
+        transform: translateY(-20px);
+        transition: 1s;
+        
+        
+    }
 }
