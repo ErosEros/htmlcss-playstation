@@ -70,6 +70,11 @@ body {
   
 }
 
+.list {
+    color: blue;
+    list-style: disc;
+}
+
 @media screen and (max-width:1200px) {
     .section-2-card-img:hover {
         border: 2px solid blue;
@@ -94,3 +99,12 @@ body {
         
     }
 }
+
+/* bootstrap adjustments  */
+
+.no-list li{
+    list-style: none;
+}
+
+
+
