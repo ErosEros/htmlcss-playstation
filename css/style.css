@@ -57,6 +57,10 @@ body {
     background-color: #00439c;
 }
 
+.eros-bg-button-nav  {
+  background-color: #363636;
+}
+
 /* hover */
 
 .section-3-card-img:hover {
@@ -65,10 +69,6 @@ body {
     filter: opacity(0.5);
   
 }
-
-/* .section-2-card-img {
-    transition: 1s;
-} */
 
 @media screen and (max-width:1200px) {
     .section-2-card-img:hover {
