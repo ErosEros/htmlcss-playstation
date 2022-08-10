@@ -19,6 +19,9 @@ body {
     height: 20px;
 }
 
+.eros-big-height {
+    height: 100%;
+}
 .eros-bg-section-1 {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -61,6 +64,9 @@ body {
   background-color: #363636;
 }
 
+.eros-bg-button-section-1 {
+    background-color: #cd3d0f;
+}
 /* hover */
 
 .section-3-card-img:hover {
@@ -73,6 +79,24 @@ body {
 .list {
     color: blue;
     list-style: disc;
+}
+
+.eroseros-border-double:hover {
+    border: 2px solid black;
+    outline: 2px solid #cd3d0f;
+    cursor: pointer;
+    
+   
+   
+    
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
 }
 
 @media screen and (max-width:1200px) {
@@ -105,6 +129,5 @@ body {
 .no-list li{
     list-style: none;
 }
-
 
 
