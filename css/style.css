@@ -85,19 +85,9 @@ body {
     border: 2px solid black;
     outline: 2px solid #cd3d0f;
     cursor: pointer;
-    
-   
-   
-    
 }
 
-.position-relative {
-    position: relative;
-}
 
-.position-absolute {
-    position: absolute;
-}
 
 @media screen and (max-width:1200px) {
     .section-2-card-img:hover {
